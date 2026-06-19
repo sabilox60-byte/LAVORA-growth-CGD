@@ -1,0 +1,410 @@
+.preview-language-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px;
+  border: 1px solid rgba(189, 154, 95, 0.35);
+  border-radius: 999px;
+  background: rgba(255, 251, 244, 0.92);
+  box-shadow: 0 10px 24px rgba(39, 33, 28, 0.06);
+}
+
+.preview-language-btn {
+  appearance: none;
+  border: 0;
+  border-radius: 999px;
+  min-width: 68px;
+  padding: 10px 14px;
+  background: transparent;
+  color: #6f685f;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.preview-language-btn:hover {
+  color: var(--ink);
+}
+
+.preview-language-btn.active {
+  background: var(--deep);
+  color: #fff;
+}
+
+.site-header .header-actions {
+  display: flex !important;
+  align-items: center;
+  gap: 12px;
+}
+
+#selective-partnership {
+  scroll-margin-top: 120px;
+}
+
+#selective-partnership .partnership-review-panel {
+  padding-top: clamp(12px, 2vw, 24px);
+}
+
+#selective-partnership .partnership-review-grid {
+  align-items: start;
+  gap: clamp(24px, 4vw, 56px);
+}
+
+#selective-partnership .balanced-title {
+  max-width: 13ch;
+  font-size: clamp(46px, 4.2vw, 70px);
+  line-height: 1.02;
+}
+
+#selective-partnership .partnership-proof-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+#selective-partnership .partnership-proof-grid span {
+  min-height: 0;
+  padding: 18px 16px;
+}
+
+#selective-partnership .partnership-closing {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid var(--line);
+}
+
+#selective-partnership .cta-row {
+  margin-top: 24px;
+}
+
+html.preview-ar body {
+  font-family: "IBM Plex Sans Arabic", "Noto Sans Arabic", "Tajawal", system-ui, sans-serif;
+}
+
+html.preview-ar .hero-title-v8,
+html.preview-ar .balanced-title,
+html.preview-ar h3,
+html.preview-ar .partnership-closing,
+html.preview-ar .hero-position-statement {
+  font-family: "Noto Naskh Arabic", "Amiri", "Times New Roman", serif;
+  letter-spacing: 0 !important;
+  line-height: 1.18;
+}
+
+html.preview-ar .kicker,
+html.preview-ar .eyebrow,
+html.preview-ar .lead,
+html.preview-ar p,
+html.preview-ar small,
+html.preview-ar strong,
+html.preview-ar span,
+html.preview-ar h1,
+html.preview-ar h2,
+html.preview-ar h3,
+html.preview-ar li {
+  letter-spacing: 0 !important;
+}
+
+html.preview-ar .hero-grid,
+html.preview-ar .grid-2,
+html.preview-ar .authority-grid,
+html.preview-ar .command-grid,
+html.preview-ar .capacity-layout,
+html.preview-ar .partnership-review-grid,
+html.preview-ar .mobil-grid,
+html.preview-ar .future-grid,
+html.preview-ar .responsibility,
+html.preview-ar .value-conclusion,
+html.preview-ar .team-stage {
+  direction: ltr;
+}
+
+html.preview-ar .hero-copy-v7,
+html.preview-ar .hero-decision-panel-clean,
+html.preview-ar .chapter-band-inner,
+html.preview-ar .exec-grid,
+html.preview-ar .decision-room,
+html.preview-ar .decision-screen,
+html.preview-ar .market-map,
+html.preview-ar .lens-navigation-v7,
+html.preview-ar .lens-screen,
+html.preview-ar .capacity-layout,
+html.preview-ar .branch-readiness,
+html.preview-ar #doctor-authority .reveal,
+html.preview-ar #premium-demand .reveal,
+html.preview-ar #calculator .reveal,
+html.preview-ar #cost-of-inaction .reveal,
+html.preview-ar #growth-system .reveal,
+html.preview-ar #patient-value .reveal,
+html.preview-ar #command-center .reveal,
+html.preview-ar #powered-team .reveal,
+html.preview-ar #fit .reveal,
+html.preview-ar #value-architecture .reveal,
+html.preview-ar #selective-partnership .reveal,
+html.preview-ar #mobilisation .reveal,
+html.preview-ar #leadership-decision .reveal,
+html.preview-ar .partnership-proof-grid,
+html.preview-ar .cta-row,
+html.preview-ar footer .footer-row {
+  direction: rtl;
+  text-align: right;
+}
+
+html.preview-ar .partnership-proof-grid {
+  direction: rtl;
+}
+
+html.preview-ar .partnership-closing,
+html.preview-ar .cta-row {
+  text-align: right;
+}
+
+html.preview-ar .lens-dossier-mark,
+html.preview-ar .brand,
+html.preview-ar .currency-row,
+html.preview-ar .currency,
+html.preview-ar input[type="range"],
+html.preview-ar .calc-results strong,
+html.preview-ar .result strong,
+html.preview-ar .hero-flow-node b,
+html.preview-ar .decision-node-number,
+html.preview-ar .timeline b,
+html.preview-ar .next-step-flow b,
+html.preview-ar .value-layer-label-v7 b,
+html.preview-ar .decision-loop,
+html.preview-ar .core-cycle,
+html.preview-ar #delayOpportunity,
+html.preview-ar #delayPatients,
+html.preview-ar #delayAuthority,
+html.preview-ar #delayCycles,
+html.preview-ar [href*="wa.me"],
+html.preview-ar .target-monogram-v8,
+html.preview-ar .clinic-slot-location {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+html.preview-ar .hero-title-v8 {
+  line-height: 1.15 !important;
+}
+
+html.preview-ar .decision-chevron-v8,
+html.preview-ar .lens-option-arrow-v8 {
+  transform: scaleX(-1);
+}
+
+html.preview-ar .partnership-proof-grid,
+html.preview-ar .fit-buttons,
+html.preview-ar .tag-list,
+html.preview-ar .role-cloud {
+  text-align: right;
+}
+
+html.preview-ar .partnership-proof-grid span,
+html.preview-ar .fit-btn,
+html.preview-ar .cta,
+html.preview-ar .currency {
+  text-transform: none;
+}
+
+#year-round-demand .shell {
+  display: grid;
+  grid-template-columns: minmax(0, 0.88fr) minmax(0, 1.12fr);
+  gap: 32px;
+  align-items: start;
+}
+
+#year-round-demand .grid-2 {
+  display: block !important;
+  min-width: 0;
+}
+
+#year-round-demand .grid-2 .lead {
+  margin-top: 18px;
+}
+
+#year-round-demand .demand-calendar {
+  grid-template-columns: 1fr !important;
+  gap: 16px !important;
+  min-width: 0;
+}
+
+#year-round-demand .rhythm-moments-v8 {
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  gap: 10px !important;
+}
+
+#year-round-demand .rhythm-chip-v8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 0;
+}
+
+#year-round-demand .rhythm-chip-v8 b,
+#year-round-demand .rhythm-chip-v8 small {
+  min-width: 0;
+  width: auto;
+  max-width: 100%;
+  overflow: visible;
+  text-overflow: clip;
+  writing-mode: horizontal-tb !important;
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: normal !important;
+}
+
+#year-round-demand .rhythm-chip-v8 b span,
+#year-round-demand .rhythm-chip-v8 small span {
+  display: inline !important;
+}
+
+#year-round-demand .rhythm-chip-v8 small {
+  display: none !important;
+}
+
+html.preview-ar #year-round-demand {
+  direction: rtl;
+}
+
+html.preview-ar #year-round-demand .grid-2,
+html.preview-ar #year-round-demand .rhythm-wave-head,
+html.preview-ar #year-round-demand .rhythm-chip-v8 {
+  text-align: right;
+}
+
+@media (max-width: 960px) {
+  #year-round-demand .shell {
+    display: block;
+  }
+
+  #year-round-demand .demand-calendar {
+    margin-top: 20px;
+  }
+
+  #year-round-demand .rhythm-moments-v8 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+@media (max-width: 760px) {
+  .site-header .header-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+  }
+
+  .site-header .brand {
+    flex: 1 1 200px;
+    min-width: 0;
+  }
+
+  .site-header .header-actions {
+    flex: 0 0 auto;
+  }
+
+  .preview-language-switcher {
+    padding: 3px;
+    gap: 4px;
+  }
+
+  .preview-language-btn {
+    min-width: 58px;
+    padding: 9px 12px;
+    font-size: 11px;
+  }
+
+  .hero-copy-v7,
+  .hero-grid > *,
+  .grid-2 > * {
+    min-width: 0;
+  }
+
+  .hero-title-v8 {
+    font-size: clamp(30px, 8.9vw, 46px) !important;
+    line-height: 1.02 !important;
+    max-width: none !important;
+  }
+
+  .hero-title-v8 > span {
+    display: block;
+    min-width: 0;
+    white-space: normal !important;
+    overflow-wrap: anywhere;
+    word-break: normal;
+  }
+
+  #selective-partnership .balanced-title {
+    max-width: none;
+    font-size: clamp(34px, 10vw, 46px) !important;
+    line-height: 1.08 !important;
+  }
+
+  #selective-partnership .partnership-proof-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  #selective-partnership .partnership-proof-grid span {
+    padding: 14px 12px;
+    min-height: 72px;
+    display: flex;
+    align-items: center;
+  }
+
+  #selective-partnership .partnership-closing {
+    margin-top: 22px;
+    padding-top: 22px;
+  }
+
+  #selective-partnership .cta-row {
+    margin-top: 18px;
+  }
+
+  #selective-partnership .cta {
+    width: 100%;
+    justify-content: center;
+  }
+
+  #year-round-demand .shell {
+    display: block;
+  }
+
+  #year-round-demand .grid-2 .lead {
+    margin-top: 14px;
+  }
+
+  #year-round-demand .demand-calendar {
+    margin-top: 18px;
+  }
+
+  #year-round-demand .rhythm-moments-v8 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 7px !important;
+  }
+
+  #year-round-demand .rhythm-chip-v8 {
+    min-height: 70px !important;
+    padding: 10px !important;
+  }
+
+  #year-round-demand .rhythm-chip-v8 b {
+    font-size: 12px !important;
+    line-height: 1.25 !important;
+    margin-top: 8px !important;
+  }
+}
+
+@media (max-width: 430px) {
+  .hero-title-v8 {
+    font-size: clamp(28px, 8.7vw, 40px) !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .preview-language-btn {
+    transition: none;
+  }
+}
