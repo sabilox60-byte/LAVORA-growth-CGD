@@ -3491,6 +3491,48 @@ h3{
     grid-template-columns:1fr;
   }
 }
+.hero-video-section{
+  min-height:auto!important;
+  display:block!important;
+  padding:clamp(28px,4vw,56px) 0 clamp(44px,5vw,78px)!important;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(197,157,90,.12), transparent 44%),
+    var(--paper);
+}
+.hero-video-shell{
+  width:min(1440px, calc(100vw - 40px));
+  margin:0 auto;
+}
+.hero-video-frame{
+  position:relative;
+  overflow:hidden;
+  width:100%;
+  aspect-ratio:16/9;
+  border:1px solid rgba(197,157,90,.28);
+  border-radius:clamp(18px,2vw,30px);
+  background:linear-gradient(135deg, rgba(246,241,234,.96), rgba(255,255,255,.84));
+  box-shadow:0 28px 90px rgba(74,64,55,.14);
+}
+.hero-video-media{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  background:#f7f0e8;
+}
+@media (max-width:767px){
+  .hero-video-section{
+    padding:18px 0 36px!important;
+  }
+  .hero-video-shell{
+    width:min(calc(100vw - 24px), 430px);
+  }
+  .hero-video-frame{
+    aspect-ratio:9/16;
+    border-radius:22px;
+    box-shadow:0 22px 64px rgba(74,64,55,.16);
+  }
+}
 </style>
 <link href="preview-i18n.css" rel="stylesheet"/>
 <script>document.documentElement.classList.add('motion-ready');setTimeout(()=>document.documentElement.classList.remove('motion-ready'),4500);</script>
@@ -3503,58 +3545,14 @@ h3{
 </div>
 </header>
 <main id="top">
-<section class="hero" data-stage="mirror">
-<div class="shell hero-grid">
-<div class="reveal hero-copy-v7">
-<div class="kicker">Private Leadership Review</div>
-<div class="clinic-panel clinic-panel-v7 clinic-sticky-v8">
-<div class="clinic-logo">LOGO</div>
-<div class="clinic-identity-v7">
-<span>Prepared exclusively for</span>
-<strong>[CLINIC_NAME]</strong>
-<small>[CITY] · [PRIMARY_SERVICE] · Leadership only</small>
+<section aria-label="Private Leadership Review" class="hero hero-video-section" data-stage="mirror">
+<div class="hero-video-shell">
+<div class="hero-video-frame">
+<video aria-label="Private Leadership Review animation" autoplay class="hero-video-media" loop muted playsinline preload="metadata">
+<source media="(max-width: 767px)" src="/assets/lavora-hero-mobile.mp4" type="video/mp4"/>
+<source media="(min-width: 768px)" src="/assets/lavora-hero-desktop.mp4" type="video/mp4"/>
+</video>
 </div>
-</div><h1 class="hero-title-v8"><span>Patients may be making their decision</span><span>before your clinic has the opportunity</span><span>to show its true standard.</span></h1>
-<div class="hero-position-statement">Your market position should reflect the standard you have already built.</div>
-<p class="lead">The issue may not be the quality inside the clinic. It may be what the market can see, trust, compare, and book before the first conversation begins.</p>
-<div class="hero-investment-line">
-<span>Existing investment</span>
-<strong>Your clinic has already invested in the hard part.</strong>
-<small>This review shows how the market can reflect more of what has already been built.</small>
-</div>
-</div>
-<div class="hero-visual reveal hero-visual-clean"><div class="hero-image-frame-clean personalized-media-frame-v8">
-<div aria-label="Personalized exterior photograph of the target clinic" class="personalized-clinic-slot-v8" data-media-slot="personalized-clinic-exterior" role="img">
-<div aria-hidden="true" class="clinic-architecture-lines"><i></i><i></i><i></i><i></i></div>
-<div aria-hidden="true" class="clinic-photo-scan"></div>
-<div aria-hidden="true" class="clinic-slot-corner clinic-slot-corner-a"></div>
-<div aria-hidden="true" class="clinic-slot-corner clinic-slot-corner-b"></div>
-<div class="clinic-slot-label">
-<span>PERSONALIZED CLINIC EXTERIOR</span>
-<strong>[CLINIC_NAME]</strong>
-<small>Real clinic image inserted during clinic extraction</small>
-</div>
-<div class="clinic-slot-location">[CITY]</div>
-</div>
-</div><div aria-label="Patient decision path before contact" class="hero-decision-panel-clean hero-decision-gold-v8">
-<div class="hero-decision-message"><div class="decision-hook-v8"><i></i><span>WHY YOUR CLINIC APPEARS HERE</span></div>
-<span>Invisible decision path</span>
-<strong>The decision may happen before the call.</strong>
-</div>
-<div class="decision-live-signal-v8"><span class="signal-dot"></span><b>Patient preference is forming now</b><small>The clinic image above becomes part of this decision path.</small></div><div class="hero-decision-flow">
-<div class="hero-flow-node" style="--step:0"><b>01</b><span>Search</span><small>Visible options</small></div>
-<i aria-hidden="true"></i>
-<div class="hero-flow-node" style="--step:1"><b>02</b><span>Compare</span><small>Trust signals</small></div>
-<i aria-hidden="true"></i>
-<div class="hero-flow-node" style="--step:2"><b>03</b><span>Trust</span><small>Doctor familiarity</small></div>
-<i aria-hidden="true"></i>
-<div class="hero-flow-node" style="--step:3"><b>04</b><span>Book</span><small>Friction decides</small></div>
-</div>
-<div class="hero-decision-outcome">
-<span>Before the clinic receives the opportunity to explain itself</span>
-<strong>Patient preference is already forming.</strong>
-</div>
-</div></div>
 </div>
 </section>
 <section class="executive-strip executive-strip-v8" data-stage="mirror">
