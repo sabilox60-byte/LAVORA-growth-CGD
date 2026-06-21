@@ -316,15 +316,15 @@ window.CGD_PREVIEW_LOCALES = {
     },
     doctorAuthority: {
       kicker: "Local trust infrastructure",
-      title: "Doctor authority is not random content.",
-      lead: "It is a structured path from repeated value to local patient preference.",
+      title: "Doctor authority must be engineered before the booking.",
+      lead: "Patients do not trust high-ticket treatments from ads alone. They trust doctors they understand before the visit.",
       steps: [
-        ["01 Familiarity", "Repeated, useful visibility"],
-        ["02 Trust", "Clear explanations and safety"],
-        ["03 Preference", "“I want that doctor”"],
-        ["04 Booking", "Lower uncertainty at decision time"]
+        ["01 Podcast clips", "Repeat the doctor's voice before the visit"],
+        ["02 Treatment explainers", "Make safety and logic easier to understand"],
+        ["03 Q&A trust library", "Reduce uncertainty before consultation"],
+        ["04 Booking confidence", "Lower hesitation at decision time"]
       ],
-      note: "The goal is not empty fame. It is to become the obvious trusted choice in the area where patients can actually visit and book.",
+      note: "Doctor authority is not ordinary content. It is trust infrastructure that helps the patient feel safer before the first conversation.",
       alt: "Doctor authority podcast visual"
     },
     premiumDemand: {
@@ -567,10 +567,10 @@ window.CGD_PREVIEW_LOCALES = {
     },
     partnership: {
       kicker: "SELECTIVE PARTNERSHIP",
-      title: "The right coverage is defined after the clinic's real growth scope becomes clear.",
+      title: "The next step is not choosing a package. It is confirming the right mandate.",
       body: [
         "CGD partnerships are shaped around the clinic's operating complexity, capacity, service structure, leadership ambition, and the level of execution required.",
-        "The purpose of this private review is to establish whether there is a genuine strategic fit before defining the appropriate coverage."
+        "This private review exists to validate whether the opportunity is serious enough, whether the clinic is ready enough, and whether CGD can responsibly accept the mandate."
       ],
       proofAria: "Selective partnership proof points",
       proofs: [
@@ -579,7 +579,7 @@ window.CGD_PREVIEW_LOCALES = {
         "Limited clinic selection",
         "Shared execution responsibility"
       ],
-      closing: "The next step is not choosing a package. It is confirming the right mandate.",
+      closing: "If there is fit, the coverage is defined after the clinic's real growth scope becomes clear.",
       cta: "Review the fit with us"
     },
     mobilisation: {
@@ -940,15 +940,15 @@ window.CGD_PREVIEW_LOCALES = {
     },
     doctorAuthority: {
       kicker: "بنية الثقة المحلية",
-      title: "سلطة الطبيب ليست محتوى عشوائياً.",
-      lead: "إنها مسار منظم ينقل القيمة المتكررة إلى تفضيل محلي واضح.",
+      title: "حضور الطبيب يجب أن يُبنى قبل الحجز.",
+      lead: "المريض لا يثق بالعلاجات عالية القيمة من الإعلان وحده. يثق بالطبيب الذي يفهمه قبل الزيارة.",
       steps: [
-        ["01 الألفة", "ظهور متكرر ونافع"],
-        ["02 الثقة", "شرح واضح وإحساس بالأمان"],
-        ["03 التفضيل", "«أريد هذا الطبيب»"],
-        ["04 الحجز", "تردد أقل لحظة القرار"]
+        ["01 مقاطع البودكاست", "يتكرر صوت الطبيب قبل الزيارة"],
+        ["02 شرح العلاجات", "توضيح الأمان والمنطق العلاجي"],
+        ["03 مكتبة أسئلة وثقة", "تقليل التردد قبل الاستشارة"],
+        ["04 ثقة الحجز", "خفض التردد وقت القرار"]
       ],
-      note: "الهدف ليس شهرة فارغة. الهدف أن تصبحوا الخيار الموثوق الواضح في المنطقة التي يستطيع المرضى الوصول إليها والحجز منها فعلياً.",
+      note: "حضور الطبيب ليس محتوى عادياً؛ إنه بنية ثقة تجعل المريض أكثر اطمئناناً قبل أول محادثة.",
       alt: "صورة توضح سلطة الطبيب عبر بودكاست"
     },
     premiumDemand: {
@@ -1191,10 +1191,10 @@ window.CGD_PREVIEW_LOCALES = {
     },
     partnership: {
       kicker: "شراكة انتقائية",
-      title: "تتحدد التغطية المناسبة بعد أن تتضح الصورة الحقيقية لنطاق نمو العيادة.",
+      title: "الخطوة التالية ليست اختيار باقة، بل تأكيد التفويض الصحيح.",
       body: [
         "تُصمَّم شراكات CGD وفق تعقيد تشغيل العيادة، وطاقتها الاستيعابية، وهيكل خدماتها، وطموح قيادتها، ومستوى التنفيذ المطلوب.",
-        "وتهدف هذه المراجعة الخاصة إلى التأكد من وجود ملاءمة استراتيجية حقيقية قبل تحديد نطاق التغطية المناسب."
+        "هذه المراجعة الخاصة تتحقق مما إذا كانت الفرصة جادة بما يكفي، وما إذا كانت العيادة جاهزة بما يكفي، وما إذا كان بإمكان CGD قبول التفويض بمسؤولية."
       ],
       proofAria: "عناصر إثبات الشراكة الانتقائية",
       proofs: [
@@ -1203,7 +1203,7 @@ window.CGD_PREVIEW_LOCALES = {
         "اختيار محدود للعيادات",
         "مسؤولية تنفيذ مشتركة"
       ],
-      closing: "الخطوة التالية ليست اختيار باقة، بل التأكد من نطاق الشراكة الصحيح.",
+      closing: "إذا وُجدت الملاءمة، يتم تحديد التغطية بعد وضوح نطاق النمو الحقيقي للعيادة.",
       cta: "لنراجع مدى الملاءمة معاً"
     },
     mobilisation: {

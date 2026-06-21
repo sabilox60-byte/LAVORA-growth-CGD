@@ -457,12 +457,15 @@
   }
 
   function applyPremiumDemand(locale) {
-    const root = qs("#premium-demand");
+    const root = qs("#premium-demand") || qs("#year-round-demand");
     if (!root) return;
 
-    setText(qs(".kicker", root), locale.kicker);
-    setText(qs("h2", root), locale.title);
-    setText(qs(".grid-2 .lead", root), locale.lead);
+    const intro = root.id === "premium-demand" ? root : qs(".v9-demand-intro", root);
+    if (intro) {
+      setText(qs(".kicker", intro), locale.kicker);
+      setText(qs("h2", intro), locale.title);
+      setText(qs(".lead", intro), locale.lead);
+    }
 
     qsa(".demand-card", root).forEach((card, index) => {
       const item = locale.cards[index];
