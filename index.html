@@ -4047,6 +4047,482 @@ h3{
     transition:none!important;
   }
 }
+
+/* ================================================================
+   CGD V9 SKILL SYSTEM PASS
+   Warm executive intelligence deck: preserve logic, upgrade meaning.
+   ================================================================ */
+.section-white,
+.section-soft,
+.section-sand{
+  overflow:hidden;
+}
+
+.balanced-title{ text-wrap:balance; }
+.lead{ text-wrap:pretty; }
+
+.decision-room-section-v8 .grid-2,
+.competitor-radar-section-v8 .grid-2,
+.capacity-section-v8 .grid-2,
+.growth-system-section-v8>.shell>.grid-2,
+#powered-team .grid-2,
+#fit .grid-2,
+#mobilisation .grid-2{
+  align-items:center;
+}
+
+.decision-room-section-v8 .decision-room-v7{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(280px,.72fr);
+  gap:clamp(20px,3vw,34px);
+  align-items:stretch;
+}
+
+.patient-choice-media-v9{
+  position:relative;
+  min-height:460px;
+  overflow:hidden;
+  border:1px solid rgba(190,151,91,.30);
+  background:#f8f0e4;
+  box-shadow:0 24px 70px rgba(58,48,38,.10);
+}
+
+.patient-choice-media-v9 img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+  display:block;
+}
+
+.patient-choice-media-v9:after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(180deg,transparent 46%,rgba(45,36,30,.68));
+  pointer-events:none;
+}
+
+.patient-choice-caption-v9{
+  position:absolute;
+  left:24px;
+  right:24px;
+  bottom:22px;
+  z-index:2;
+  color:#fff7e8;
+}
+
+.patient-choice-caption-v9 span{
+  display:block;
+  margin-bottom:8px;
+  font-size:.68rem;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  color:#e7c88e;
+}
+
+.patient-choice-caption-v9 strong{
+  display:block;
+  max-width:20rem;
+  font-family:var(--serif);
+  font-size:clamp(1.35rem,2.1vw,2.05rem);
+  font-weight:500;
+  line-height:1.05;
+}
+
+.competitor-radar-section-v8 .market-map{
+  background-image:
+    linear-gradient(180deg,rgba(255,252,245,.68),rgba(255,248,236,.72)),
+    url("/assets/lavora-competitor-market-bg.png")!important;
+  background-size:cover!important;
+  background-position:center!important;
+}
+
+.competitor-radar-section-v8 .market-map:before{
+  content:"";
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  background:
+    radial-gradient(circle at 50% 48%, rgba(190,151,91,.22), transparent 31%),
+    linear-gradient(90deg, rgba(255,255,255,.36), transparent 28%, transparent 72%, rgba(255,255,255,.34));
+}
+
+.competitor-radar-section-v8 .competitor,
+.competitor-radar-section-v8 .target-clinic{
+  backdrop-filter:blur(8px);
+  -webkit-backdrop-filter:blur(8px);
+  background:rgba(255,254,250,.82)!important;
+}
+
+.digital-department-v9{
+  background:
+    radial-gradient(circle at 88% 18%, rgba(190,151,91,.14), transparent 34%),
+    linear-gradient(180deg,#fffaf2,#f1e6d5);
+}
+
+.digital-department-v9 .digital-grid-v9{
+  display:grid;
+  grid-template-columns:minmax(0,.78fr) minmax(0,1fr);
+  gap:clamp(28px,5vw,72px);
+  align-items:center;
+}
+
+.digital-department-copy-v9 .lead{
+  margin-top:18px;
+}
+
+.department-chip-row-v9{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:28px;
+}
+
+.department-chip-row-v9 span{
+  border:1px solid rgba(190,151,91,.28);
+  background:rgba(255,255,255,.60);
+  padding:10px 14px;
+  color:rgba(53,44,38,.78);
+  font-weight:650;
+  font-size:.86rem;
+}
+
+.digital-media-v9{
+  position:relative;
+  overflow:hidden;
+  border:1px solid rgba(190,151,91,.30);
+  background:#fffaf4;
+  box-shadow:0 34px 92px rgba(58,48,38,.13);
+}
+
+.digital-media-v9:before{
+  content:"";
+  position:absolute;
+  inset:10px;
+  z-index:2;
+  border:1px solid rgba(255,255,255,.68);
+  pointer-events:none;
+}
+
+.digital-media-v9 img{
+  width:100%;
+  display:block;
+  object-fit:cover;
+  object-position:center;
+}
+
+.digital-proof-row-v9{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:12px;
+  margin-top:14px;
+}
+
+.digital-proof-row-v9 span{
+  padding:12px;
+  border:1px solid rgba(190,151,91,.22);
+  background:rgba(255,255,255,.58);
+  font-size:.82rem;
+  font-weight:650;
+  color:rgba(53,44,38,.76);
+}
+
+.year-round-gold-v8 .grid-2{
+  grid-template-columns:minmax(0,.68fr) minmax(0,1fr);
+}
+
+.year-round-gold-v8 .rhythm-moments-v8{
+  display:grid!important;
+  grid-template-columns:repeat(4,minmax(0,1fr))!important;
+  gap:12px!important;
+}
+
+.year-round-gold-v8 .rhythm-chip-v8{
+  min-height:96px;
+  display:flex!important;
+  flex-direction:column;
+  justify-content:center;
+  gap:7px;
+}
+
+.year-round-gold-v8 .rhythm-chip-v8 b{
+  writing-mode:horizontal-tb!important;
+  white-space:normal!important;
+  word-break:normal!important;
+  overflow-wrap:normal!important;
+  min-width:0!important;
+  font-size:1rem;
+  line-height:1.18;
+}
+
+.year-round-gold-v8 .rhythm-chip-v8 small{
+  line-height:1.25;
+}
+
+.premium-grid-section-v8{
+  padding-top:clamp(48px,6vw,82px)!important;
+  background:linear-gradient(180deg,#fffaf2,#f8efe2)!important;
+}
+
+.premium-grid-section-v8 .grid-2{
+  margin-bottom:clamp(24px,4vw,42px);
+}
+
+.premium-grid-section-v8 .demand-card{
+  overflow:hidden;
+}
+
+.premium-grid-section-v8 .demand-card img{
+  aspect-ratio:5/6;
+  object-position:center top;
+}
+
+#doctor-authority .authority-grid{
+  grid-template-columns:minmax(0,.72fr) minmax(0,1fr);
+}
+
+#doctor-authority .authority-image{
+  min-height:560px;
+}
+
+#doctor-authority .authority-image img{
+  height:100%;
+  object-fit:cover;
+  object-position:center top;
+}
+
+.growth-system-section-v8 .operating-map-v7{
+  padding:clamp(22px,3vw,38px)!important;
+}
+
+.growth-system-section-v8 .system-thesis{
+  max-width:980px;
+  margin:clamp(26px,4vw,44px) auto 0;
+  padding:22px 26px;
+  border:1px solid rgba(190,151,91,.24);
+  background:rgba(255,254,250,.70);
+  color:rgba(53,44,38,.78);
+}
+
+.growth-responsibility-v9{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:14px;
+  margin-top:24px;
+}
+
+.growth-responsibility-v9 span{
+  border:1px solid rgba(190,151,91,.24);
+  background:rgba(255,254,250,.74);
+  padding:14px 16px;
+  color:rgba(53,44,38,.74);
+  font-weight:650;
+}
+
+#fit,
+#value-architecture,
+#command-center,
+#leadership-decision{
+  display:none!important;
+}
+
+#selective-partnership .partnership-review-panel{
+  background:
+    radial-gradient(circle at 88% 16%, rgba(190,151,91,.14), transparent 34%),
+    linear-gradient(145deg, rgba(255,255,255,.94), rgba(248,240,228,.76))!important;
+}
+
+html.preview-ar .digital-department-v9{
+  direction:rtl;
+}
+
+html.preview-ar .digital-department-v9 [data-lang="en"],
+html:not(.preview-ar) .digital-department-v9 [data-lang="ar"],
+html.preview-ar .patient-choice-caption-v9 [data-lang="en"],
+html:not(.preview-ar) .patient-choice-caption-v9 [data-lang="ar"]{
+  display:none!important;
+}
+
+html.preview-ar .patient-choice-caption-v9,
+html.preview-ar .department-chip-row-v9,
+html.preview-ar .digital-proof-row-v9,
+html.preview-ar .growth-responsibility-v9{
+  direction:rtl;
+}
+
+@media (max-width:900px){
+  .decision-room-section-v8 .decision-room-v7,
+  .digital-department-v9 .digital-grid-v9,
+  #doctor-authority .authority-grid,
+  .year-round-gold-v8 .grid-2{
+    grid-template-columns:1fr!important;
+  }
+
+  .patient-choice-media-v9{
+    min-height:360px;
+  }
+
+  .digital-proof-row-v9,
+  .growth-responsibility-v9{
+    grid-template-columns:1fr;
+  }
+}
+
+@media (max-width:640px){
+  html,
+  body{
+    max-width:100%;
+    overflow-x:hidden;
+  }
+
+  .shell,
+  .grid-2,
+  .reveal,
+  section{
+    min-width:0!important;
+  }
+
+  .balanced-title{
+    width:100%!important;
+    max-width:100%!important;
+    min-width:0!important;
+    font-size:clamp(1.9rem,8.4vw,2.42rem)!important;
+    line-height:1.08!important;
+    letter-spacing:-.008em!important;
+    white-space:normal!important;
+    word-break:normal!important;
+    overflow-wrap:normal!important;
+  }
+
+  .executive-strip-v8 .balanced-title,
+  .decision-room-section-v8 .balanced-title,
+  .competitor-radar-section-v8 .balanced-title,
+  .opportunity-lens-section-v8 .balanced-title{
+    font-size:clamp(1.85rem,8vw,2.32rem)!important;
+  }
+
+  .decision-room-section-v8 .balanced-title{
+    font-size:clamp(1.78rem,7.2vw,2.08rem)!important;
+  }
+
+  .lead{
+    max-width:100%!important;
+    font-size:1rem!important;
+    line-height:1.72!important;
+  }
+
+  .hero-video-frame{
+    background:#f3eadf!important;
+  }
+
+  .hero-video-media{
+    object-fit:contain!important;
+    background:#f3eadf!important;
+  }
+
+  .decision-room-section-v8 .lead,
+  .competitor-radar-section-v8 .lead,
+  .opportunity-lens-section-v8 .lead{
+    color:rgba(53,44,38,.72)!important;
+  }
+
+  .decision-room-section-v8 .decision-room-v7{
+    gap:16px;
+  }
+
+  .decision-room-section-v8 .decision-path-v7{
+    display:grid!important;
+    grid-template-columns:repeat(2,minmax(0,1fr))!important;
+    gap:8px!important;
+    overflow:visible!important;
+    padding:10px!important;
+  }
+
+  .decision-room-section-v8 .decision-progress-track,
+  .decision-room-section-v8 .decision-chevron-v8{
+    display:none!important;
+  }
+
+  .decision-room-section-v8 .decision-tab{
+    width:100%!important;
+    min-width:0!important;
+    max-width:100%!important;
+    display:grid!important;
+    grid-template-columns:1fr!important;
+    justify-items:center;
+    gap:6px!important;
+    padding:12px 8px!important;
+    text-align:center!important;
+  }
+
+  .decision-room-section-v8 .decision-tab>div{
+    min-width:0!important;
+    width:100%!important;
+  }
+
+.decision-room-section-v8 .decision-tab b{
+    display:block!important;
+    white-space:normal!important;
+    font-size:.92rem!important;
+    line-height:1.1!important;
+  }
+
+  .decision-room-section-v8 .decision-tab small{
+    display:none!important;
+  }
+
+  .decision-room-section-v8 .decision-screen-v7{
+    color:rgba(53,44,38,.82)!important;
+  }
+
+  .decision-room-section-v8 .decision-screen-v7 h3{
+    color:var(--deep)!important;
+  }
+
+  .decision-room-section-v8 .decision-screen-v7 .eyebrow,
+  .decision-room-section-v8 .decision-screen-step span{
+    color:var(--gold-2)!important;
+  }
+
+  .decision-room-section-v8 .decision-metric strong,
+  .decision-room-section-v8 .decision-metric span,
+  .decision-room-section-v8 .decision-loss{
+    color:rgba(53,44,38,.72)!important;
+  }
+
+  .patient-choice-media-v9{
+    min-height:300px;
+  }
+
+  .year-round-gold-v8 .rhythm-moments-v8{
+    grid-template-columns:repeat(2,minmax(0,1fr))!important;
+    gap:10px!important;
+  }
+
+  .year-round-gold-v8 .rhythm-chip-v8{
+    min-height:88px;
+    padding:14px 12px!important;
+  }
+
+  .year-round-gold-v8 .rhythm-chip-v8 b{
+    font-size:.94rem;
+  }
+
+  .premium-grid-section-v8 .demand-card img{
+    aspect-ratio:4/5;
+  }
+
+  #doctor-authority .authority-image{
+    min-height:430px;
+  }
+
+  .department-chip-row-v9 span,
+  .digital-proof-row-v9 span,
+  .growth-responsibility-v9 span{
+    font-size:.82rem;
+  }
+}
 </style>
 <link href="preview-i18n.css" rel="stylesheet"/>
 <script>document.documentElement.classList.add('motion-ready');setTimeout(()=>document.documentElement.classList.remove('motion-ready'),4500);</script>
@@ -4112,6 +4588,15 @@ h3{
 <div class="decision-metrics decision-metrics-v7" id="decisionMetrics"><div class="decision-metric"><strong>Maps</strong><span>Local discoverability</span></div><div class="decision-metric"><strong>Reviews</strong><span>Visible confidence</span></div><div class="decision-metric"><strong>Service intent</strong><span>Treatment relevance</span></div></div>
 <div class="decision-loss" id="decisionLoss">If the clinic is not visible in the right places, the patient never reaches the next stage.</div>
 </div>
+<div class="patient-choice-media-v9" aria-label="Patient comparing clinic choices before booking">
+<img alt="Patient comparing clinic options before booking" loading="lazy" decoding="async" src="/assets/lavora-patient-choice.jpg"/>
+<div class="patient-choice-caption-v9">
+<span data-lang="en">Patient choice happens before contact</span>
+<span data-lang="ar">اختيار المريض يبدأ قبل التواصل</span>
+<strong data-lang="en">Search, compare, trust, then book.</strong>
+<strong data-lang="ar">يبحث، يقارن، يثق، ثم يحجز.</strong>
+</div>
+</div>
 </div>
 </div>
 </section>
@@ -4172,6 +4657,26 @@ h3{
 </div>
 </div>
 <div class="branch-readiness reveal"><div class="eyebrow">Expansion readiness</div><h3>Saturate the current operation before expanding the footprint.</h3><div class="branch-flow"><span>Stable demand</span><span>Stronger utilization</span><span>Measured pressure</span><span>Expansion discussion</span></div><p class="micro">This is a strategic path, not a guarantee. Expansion becomes a rational discussion only when demand, trust, capacity, and performance are stable enough to support it.</p></div>
+</div>
+</section>
+<section class="section-white digital-department-v9" data-stage="system" id="digital-department">
+<div class="shell digital-grid-v9">
+<div class="digital-department-copy-v9 reveal">
+<div class="kicker"><span data-lang="en">CGD DIGITAL DEPARTMENT</span><span data-lang="ar">قسم النمو الرقمي من CGD</span></div>
+<h2 class="balanced-title"><span data-lang="en">CGD attaches as the digital growth department beside the clinic.</span><span data-lang="ar">تعمل CGD كقسم نمو رقمي متصل بالعيادة.</span></h2>
+<p class="lead"><span data-lang="en">The clinic has already built the physical operation. The missing layer is often the connected digital department that turns visibility, authority, booking control, follow-up, reporting, offers, and patient value into one operating rhythm.</span><span data-lang="ar">العيادة بنت التشغيل الفعلي بالفعل. الطبقة الناقصة غالباً هي قسم النمو الرقمي المتصل الذي يجمع الظهور، سلطة الطبيب، ضبط الحجز، المتابعة، التقارير، العروض، وقيمة المريض داخل إيقاع تشغيلي واحد.</span></p>
+<div class="department-chip-row-v9" aria-label="Digital department operating areas">
+<span data-lang="en">Visibility</span><span data-lang="en">Doctor authority</span><span data-lang="en">Booking control</span><span data-lang="en">Follow-up</span><span data-lang="en">Reporting</span><span data-lang="en">Offer lab</span>
+<span data-lang="ar">الظهور</span><span data-lang="ar">سلطة الطبيب</span><span data-lang="ar">ضبط الحجز</span><span data-lang="ar">المتابعة</span><span data-lang="ar">التقارير</span><span data-lang="ar">مختبر العروض</span>
+</div>
+</div>
+<div class="reveal">
+<div class="digital-media-v9"><img alt="CGD digital department attaches beside the clinic operating system" loading="lazy" decoding="async" src="/assets/lavora-digital-department-panel.png"/></div>
+<div class="digital-proof-row-v9" aria-label="Digital department outputs">
+<span data-lang="en">One operating direction</span><span data-lang="en">Connected patient path</span><span data-lang="en">Leadership-ready learning</span>
+<span data-lang="ar">اتجاه تشغيلي واحد</span><span data-lang="ar">مسار مريض متصل</span><span data-lang="ar">تعلم جاهز للقيادة</span>
+</div>
+</div>
 </div>
 </section>
 <section class="section-white year-round-gold-v8" data-qa-section="year-round-rhythm" data-stage="economics" id="year-round-demand">
@@ -4298,7 +4803,7 @@ h3{
 </div>
 </article>
 <div class="operating-feedback-v7"><span>Demand creates patient intelligence</span><span aria-hidden="true" class="feedback-flow-line-v8"></span><i>↻</i><span>Patient intelligence improves the next demand decision</span></div>
-</div><p class="system-thesis">The value is not any single channel. The value is the operating connection between demand, booking, experience, retention, authority, measurement, and the next decision.</p></div>
+</div><p class="system-thesis">The value is not any single channel. The value is the operating connection between demand, booking, experience, retention, authority, measurement, and the next decision.</p><div class="growth-responsibility-v9" aria-label="Shared execution responsibility"><span data-lang="en">CGD builds the operating system</span><span data-lang="en">The clinic protects capacity and service quality</span><span data-lang="en">Both sides keep the learning loop active</span><span data-lang="ar">CGD تبني نظام التشغيل</span><span data-lang="ar">العيادة تحافظ على الطاقة وجودة الخدمة</span><span data-lang="ar">الطرفان يحافظان على حلقة التعلم</span></div></div>
 </section>
 <section class="section-white" data-stage="system" id="patient-value">
 <div class="shell"><div class="grid-2"><div class="reveal"><div class="kicker">Patient value compounding</div><h2 class="balanced-title">One patient can become one transaction—or a long-term growth asset.</h2></div><p class="lead reveal">Acquisition opens the relationship. Experience, intelligent follow-up, repeat value, referrals, and doctor authority are what make growth compound.</p></div><div class="future-grid"><article class="future bad reveal"><div class="eyebrow">Disconnected path</div><h3>Acquire. Treat. Go silent. Buy attention again.</h3><div class="future-path"><div class="future-step">Attention</div><div class="future-arrow">→</div><div class="future-step">Booking</div><div class="future-arrow">→</div><div class="future-step">Treatment</div></div><p class="micro">The relationship ends too early, so the clinic repeatedly restarts from zero.</p></article><article class="future good reveal"><div class="eyebrow">Compounding path</div><h3>Acquire once. Build value across the relationship.</h3><div class="future-path"><div class="future-step">Qualified booking</div><div class="future-arrow">→</div><div class="future-step">Experience</div><div class="future-arrow">→</div><div class="future-step">Retention</div></div><p class="micro">The patient can return, take the next relevant treatment, refer others, and strengthen trust.</p></article></div></div>
@@ -4512,6 +5017,16 @@ const fitButtons=[...document.querySelectorAll('.fit-btn')];fitButtons.forEach(b
 const revealObserver=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('revealed');revealObserver.unobserve(entry.target);}})},{threshold:.1,rootMargin:'0px 0px -8% 0px'});
 document.querySelectorAll('.reveal').forEach(el=>revealObserver.observe(el));
 setTimeout(()=>{document.documentElement.classList.remove('motion-ready');document.querySelectorAll('.reveal').forEach(x=>x.classList.add('revealed'));},2200);
+</script>
+<script>
+(() => {
+  const authorityImage = document.querySelector('#doctor-authority .authority-image img');
+  if (authorityImage) {
+    authorityImage.src = '/assets/lavora-doctor-authority.jpg';
+    authorityImage.loading = 'lazy';
+    authorityImage.decoding = 'async';
+  }
+})();
 </script>
 <script src="preview-locales.js"></script>
 <script src="preview-i18n.js"></script>
